@@ -1,0 +1,7 @@
+.header {
+    min-height: 10vh;
+    background-color: #b1e3d5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

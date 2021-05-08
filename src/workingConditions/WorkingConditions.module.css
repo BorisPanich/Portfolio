@@ -1,0 +1,14 @@
+.workingBlock {
+    min-height: 50vh;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    background-color: #9ba0a0;
+}
+

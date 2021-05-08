@@ -1,0 +1,19 @@
+.mainBlock {
+    background-color: #f2a2ff;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text {
+    width: 200px;
+    background-color: azure;
+}
+.photo {
+    width: 300px;
+    height: 300px;
+    background-color: azure;
+}
