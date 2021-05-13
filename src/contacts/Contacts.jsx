@@ -5,24 +5,15 @@ import styleContainer from './../../src/Common/styles/Container.module.css'
 function Contacts() {
     return (
         <div className={style.contactsBlock}>
-            <div className={`${styleContainer.container} ${style.text}`}>
-                <div className={style.contactsTitle}>Contacts</div>
-                <div className={style.input_textarea}>
-                    <div>
-                        <input type="text" value="input 1"/>
-                    </div>
-                    <div>
-                        <input type="text" value="input 2"/>
-                    </div>
-                    <textarea name="" id="" cols="5" rows="5">
-
-                    </textarea>
-                </div>
-                <div>
-                    <button className={style.conctsButton}>Send</button>
-                </div>
+            <div className={`${styleContainer.container} ${style.contactsContainer}`}>
+                <h2 className={style.contactsTitle}>Contacts</h2>
+                <form className={style.contactForm}>
+                    <input type="text" value="input 1"/>
+                    <input type="text" value="input 2"/>
+                    <textarea />
+                    <button type="submit" className={style.submitButton}>Send</button>
+                </form>
             </div>
-
         </div>
     )
 }

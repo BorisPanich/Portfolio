@@ -7,7 +7,7 @@ function Project(props) {
             <div className={style.picture}>
                 <button className={style.clickUrl}>Watch it</button>
             </div>
-            <h3>{props.title}</h3>
+            <h3 className={style.projectTitle}>{props.title}</h3>
             <span className={style.descriptionText}>{props.discription}</span>
             <a href=""></a>
         </div>
