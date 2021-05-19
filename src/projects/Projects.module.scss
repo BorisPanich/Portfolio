@@ -1,0 +1,30 @@
+.projectsBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f8d0d4;
+
+  .projectsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .projects {
+      border: 1px solid;
+      width: 100%;
+      background-color: #fdf4d6;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+  }
+}
+
+
+//.title {
+//    margin: 30px;
+//    background-color: #efeaea;
+//}
+

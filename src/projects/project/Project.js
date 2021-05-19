@@ -1,10 +1,10 @@
 import React from 'react';
-import style from './Project.module.css';
+import style from './Project.module.scss';
 
 function Project(props) {
     return (
         <div className={style.project}>
-            <div className={style.picture}>
+            <div className={style.picture} style={props.style} >
                 <button className={style.clickUrl}>Watch it</button>
             </div>
             <h3 className={style.projectTitle}>{props.title}</h3>
