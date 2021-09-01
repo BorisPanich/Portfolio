@@ -1,16 +1,16 @@
-.projectsBlock {
+.worksBlock {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #f8d0d4;
+  background: rgb(98, 31, 153);
 
-  .projectsContainer {
+  .worksContainer {
     flex-direction: column;
     justify-content: flex-start;
 
-    .projects {
+    .works {
       border: 1px solid;
       width: 100%;
       background-color: #fdf4d6;
@@ -19,12 +19,12 @@
       flex-wrap: wrap;
       margin-top: 30px;
     }
+
+    .title {
+      background-color: forestgreen;
+    }
   }
 }
 
 
-//.title {
-//    margin: 30px;
-//    background-color: #efeaea;
-//}
 

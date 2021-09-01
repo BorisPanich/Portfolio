@@ -1,20 +1,19 @@
 import React from 'react';
-import style from './Footers.module.css';
-import styleContainer from './../../src/Common/styles/Container.module.css'
-import FooterItem from "./footerItem/FooterItem";
+import s from './Footers.module.css';
+import sContainer from './../../src/Common/styles/Container.module.css'
 
 function Footers() {
     return (
-        <div className={style.footersBlock}>
-            <div className={`${styleContainer.container} ${style.footersContainer}`}>
-                <h2 className={style.title}>Boris Panich</h2>
-                <div className={style.footers}>
-                    <FooterItem discription={"My Project 1"}/>
-                    <FooterItem discription={"My Project 2"}/>
-                    <FooterItem discription={"My Project 3"}/>
-                    <FooterItem discription={"My Project 4"}/>
+        <div className={s.footerBlock}>
+            <div className={`${sContainer.container} ${s.footerContainer}`}>
+                <h2 className={s.title}>Boris Panich</h2>
+                <div className={s.socialLinksBlock}>
+                    <div className={s.socialLink}>1</div>
+                    <div className={s.socialLink}>2</div>
+                    <div className={s.socialLink}>3</div>
+                    <div className={s.socialLink}>4</div>
                 </div>
-                <div className={style.lowerFooter}>2021 All rights reserved</div>
+                <h4>@2020 All rights reserved</h4>
             </div>
         </div>
     )

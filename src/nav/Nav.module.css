@@ -1,6 +1,6 @@
 .nav {
-    border: 3px solid firebrick;
-    width: 300px;
+    border: 1px solid red;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 300px;
 }

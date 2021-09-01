@@ -1,5 +1,5 @@
 .mainBlock {
-    background-color: #f2a2ff;
+    background: chocolate;
     min-height: 50vh;
     display: flex;
     flex-direction: column;
@@ -8,9 +8,9 @@
     text-align: center;
 }
 
-.text {
-    width: 200px;
-    background-color: azure;
+.greeting {
+    width: 300px;
+    background: crimson;
 }
 .photo {
     width: 300px;

@@ -1,19 +1,21 @@
 import React from 'react';
-import style from './Contacts.module.css';
-import styleContainer from './../../src/Common/styles/Container.module.css'
-import Title from "../Common/components/title/Title";
+import s from './Contacts.module.css';
+import sContainer from './../../src/Common/styles/Container.module.css'
 
 function Contacts() {
     return (
-        <div className={style.contactsBlock}>
-            <div className={`${styleContainer.container} ${style.contactsContainer}`}>
-                <Title text={"Contacts"} />
-                <form className={style.contactForm}>
-                    <input type="text" value="input 1"/>
-                    <input type="text" value="input 2"/>
-                    <textarea />
-                    <button type="submit" className={style.submitButton}>Send</button>
+        <div className={s.contactBlock}>
+            <div className={`${sContainer.container} ${s.contactContainer}`}>
+                <h2 className={s.title}>Contact</h2>
+                <form className={s.contactForm}>
+                    <label htmlFor="fname">First name:</label><br/>
+                    <input type="text" id="fname" name="fname"/><br/>
+                    <label htmlFor="lname">Last name:</label><br/>
+                    <input type="text" id="lname" name="lname"/><br/>
+                    <label htmlFor="larea">Your message:</label><br/>
+                    <textarea type="text" id="larea" name="larea"/>
                 </form>
+                <button type="submit" className={s.sendButton}>Send</button>
             </div>
         </div>
     )

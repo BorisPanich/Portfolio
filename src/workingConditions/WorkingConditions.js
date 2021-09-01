@@ -1,16 +1,15 @@
 import React from 'react';
-import style from './WorkingConditions.module.css';
-import styleContainer from './../../src/Common/styles/Container.module.css'
+import s from './WorkingConditions.module.css';
+import sContainer from './../../src/Common/styles/Container.module.css'
 
 function WorkingConditions() {
     return (
-        <div className={style.workingBlock}>
-            <div className={`${styleContainer.container} ${style.text}`}>
-                <h1 className={style.title}>First of all, I consider options for remote work</h1>
-                <a className={style.title} href={""}>Hire me</a>
+        <div className={s.workingBlock}>
+            <div className={`${sContainer.container} ${s.workingContainer}`}>
+                <h2 className={s.title}>Сonsidering work options</h2>
+                <button className={s.hireButton}>Hire me</button>
             </div>
-
-        </div>
+    </div>
     )
 }
 

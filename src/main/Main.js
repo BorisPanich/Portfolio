@@ -1,7 +1,7 @@
 import React from 'react';
-import style from './Main.module.css';
+import s from './Main.module.css';
 import My_foto from '../assets/images/My_foto.jpg'
-import styleContainer from './../../src/Common/styles/Container.module.css'
+import sContainer from './../../src/Common/styles/Container.module.css'
 
 function Main() {
     const myFoto = {
@@ -9,13 +9,13 @@ function Main() {
     }
 
     return (
-        <div className={style.mainBlock}>
-            <div className={styleContainer.container}>
-                <div style={myFoto} className={style.photo}></div>
-                <div className={style.text}>
+        <div className={s.mainBlock}>
+            <div className={sContainer.container}>
+                <div style={myFoto} className={s.photo}></div>
+                <div className={s.greeting}>
                     <span>Hi There</span>
-                    <h1>My name is Boris Panich</h1>
-                    <p>I'm Front-End Developer!</p>
+                    <h1>I'm Boris</h1>
+                    <p>Front-End Developer!</p>
                 </div>
             </div>
         </div>

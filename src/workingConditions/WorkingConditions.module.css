@@ -1,6 +1,6 @@
 .workingBlock {
     min-height: 50vh;
-    background-color: azure;
+    background: rgb(160, 170, 11);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +8,18 @@
     text-align: center;
 }
 
+.workingContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 .title {
-    background-color: #9ba0a0;
+    background-color: forestgreen;
+}
+
+.hireButton {
+    width: 110px;
+    height: 40px;
 }
 
