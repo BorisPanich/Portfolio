@@ -1,6 +1,6 @@
 .contactBlock {
     height: auto;
-    background: rgb(11, 197, 135);
+    background: rgb(114, 117, 117);
     padding: 75px 0;
 }
 
@@ -12,11 +12,11 @@
 }
 
 .title {
-    background-color: forestgreen;
+    background-color: #e72020;
 }
 
 .contactForm {
-    width: 40%;
+    width: 42%;
     margin-bottom: 40px;
 }
 
@@ -35,6 +35,13 @@ textarea {
 .sendButton {
     width: 110px;
     height: 40px;
+}
+
+@media screen and (max-width: 900px) {
+    .contactForm {
+        width: 240px;
+        text-align: center;
+    }
 }
 
 

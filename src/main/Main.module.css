@@ -1,5 +1,7 @@
 .mainBlock {
-    background: chocolate;
+    height: auto;
+    padding: 50px 0;
+    background: rgb(114, 117, 117);
     min-height: 50vh;
     display: flex;
     flex-direction: column;
@@ -10,12 +12,20 @@
 
 .greeting {
     width: 300px;
-    background: crimson;
+    background: #c3c3c3;
 }
+
 .photo {
     width: 300px;
     height: 300px;
-    background-color: azure;
+    background-color: #e72020;
     background-size: cover;
+}
 
+@media screen and (max-width: 760px) {
+    .greeting {
+        text-align: center;
+    }
+    .photo {
+    }
 }

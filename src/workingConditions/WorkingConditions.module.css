@@ -1,6 +1,6 @@
 .workingBlock {
     min-height: 50vh;
-    background: rgb(160, 170, 11);
+    background: rgb(74, 76, 76);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +15,8 @@
 }
 
 .title {
-    background-color: forestgreen;
+    text-align: center;
+    background-color: #e72020;
 }
 
 .hireButton {

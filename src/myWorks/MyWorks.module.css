@@ -1,0 +1,38 @@
+.worksBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(114, 117, 117);
+}
+
+.worksContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.works {
+    border: 1px solid;
+    width: 100%;
+    background-color: #fdf4d6;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.title {
+    background-color: #e72020;
+}
+
+@media screen and (max-width: 1005px) {
+    .works {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+
