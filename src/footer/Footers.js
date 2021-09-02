@@ -2,7 +2,7 @@ import React from 'react';
 import s from './Footers.module.css';
 import sContainer from './../../src/Common/styles/Container.module.css'
 
-function Footers() {
+const Footers = React.memo(() => {
     return (
         <div className={s.footerBlock}>
             <div className={`${sContainer.container} ${s.footerContainer}`}>
@@ -13,10 +13,10 @@ function Footers() {
                     <div className={s.socialLink}>3</div>
                     <div className={s.socialLink}>4</div>
                 </div>
-                <h4>@2020 All rights reserved</h4>
+                <h4>@2020 All rights reserved Boris Panich</h4>
             </div>
         </div>
     )
-}
+})
 
 export default Footers;

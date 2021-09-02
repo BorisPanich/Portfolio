@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Nav.module.css';
 
-function Nav() {
+const Nav = React.memo(() => {
     return (
         <div className={s.nav}>
             <a href="">Main</a>
@@ -11,6 +11,6 @@ function Nav() {
             <a href="">Home</a>
         </div>
     )
-}
+})
 
 export default Nav;

@@ -5,7 +5,7 @@ import todoList from "../assets/images/todoList.png";
 import Sfinks from "../assets/images/Sfinks.jpg";
 import MyWork from "./myWork/MyWork";
 
-function MyWorks() {
+const MyWorks = React.memo(() => {
     const todoImage = {
         backgroundImage: `url(${todoList})`
     };
@@ -28,6 +28,6 @@ function MyWorks() {
             </div>
         </div>
     )
-}
+})
 
 export default MyWorks;

@@ -3,7 +3,7 @@ import s from './Skills.module.css';
 import sContainer from './../../src/Common/styles/Container.module.css'
 import Skill from "./skill/Skill";
 
-function Skills() {
+const Skills = React.memo(() => {
     return (
         <div className={s.skillsBlock}>
             <div className={`${sContainer.container} ${s.skillsContainer}`}>
@@ -34,6 +34,6 @@ function Skills() {
             </div>
         </div>
     )
-}
+})
 
 export default Skills;

@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Skill.module.css';
 
-function Skill(props) {
+const Skill = React.memo((props) => {
     return (
         <div className={s.skillBlock}>
             <div className={s.icon}>
@@ -15,6 +15,6 @@ function Skill(props) {
             </span>
         </div>
     )
-}
+})
 
 export default Skill;

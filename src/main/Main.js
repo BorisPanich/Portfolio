@@ -3,7 +3,7 @@ import s from './Main.module.css';
 import My_foto from '../assets/images/My_foto.jpg'
 import sContainer from './../../src/Common/styles/Container.module.css'
 
-function Main() {
+const Main = React.memo(() => {
     const myFoto = {
         backgroundImage: `url(${My_foto})`
     }
@@ -20,6 +20,6 @@ function Main() {
             </div>
         </div>
     )
-}
+})
 
 export default Main;

@@ -3,7 +3,7 @@ import s from './Contacts.module.css';
 import sContainer from './../../src/Common/styles/Container.module.css'
 import {Button} from "../Common/components/button/Button";
 
-function Contacts() {
+const Contacts = React.memo(() => {
     return (
         <div className={s.contactBlock}>
             <div className={`${sContainer.container} ${s.contactContainer}`}>
@@ -20,6 +20,6 @@ function Contacts() {
             </div>
         </div>
     )
-}
+})
 
 export default Contacts;
