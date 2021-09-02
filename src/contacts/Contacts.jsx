@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './Contacts.module.css';
 import sContainer from './../../src/Common/styles/Container.module.css'
+import {Button} from "../Common/components/button/Button";
 
 function Contacts() {
     return (
@@ -15,7 +16,7 @@ function Contacts() {
                     <label htmlFor="larea">Your message:</label><br/>
                     <textarea type="text" id="larea" name="larea"/>
                 </form>
-                <button type="submit" className={s.sendButton}>Send</button>
+                <Button name={'Send'}/>
             </div>
         </div>
     )

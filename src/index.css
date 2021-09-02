@@ -61,12 +61,13 @@ body {
     --navbar-menu-item-hover-color: #f9004d;
 }
 
-a {
-    text-decoration: none;
-}
-
 ul {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 code {
@@ -94,3 +95,4 @@ h2 {
     font-weight: 700;
     font-size: 60px;
 }
+

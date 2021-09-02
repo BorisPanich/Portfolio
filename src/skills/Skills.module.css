@@ -33,6 +33,10 @@
     .skills {
         justify-content: space-around;
     }
+
+    .skills > div:last-child {
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -40,5 +44,9 @@
         align-items: center;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .skills > div:last-child {
+        margin-bottom: 0;
     }
 }

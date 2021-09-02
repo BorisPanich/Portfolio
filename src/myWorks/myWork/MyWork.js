@@ -1,11 +1,12 @@
 import React from 'react';
 import s from './MyWork.module.css';
+import {Button} from "../../Common/components/button/Button";
 
 function MyWork({projectName, description, ...props}) {
     return (
         <div className={s.workBlock}>
             <div className={s.projectImg}>
-                <button className={s.watchButton}>Watch it</button>
+                <Button name={'Watch'} />
             </div>
             <div className={s.description}>
                 <h3>{projectName}</h3>

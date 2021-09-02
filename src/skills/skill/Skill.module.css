@@ -14,9 +14,10 @@
 
 .discription {
     text-align: center;
+    padding: 10px 5px;
 }
 
-@media screen and (max-width: 1005px) {
+@media screen and (max-width: 934px) {
     .skillBlock {
         margin-bottom: 10px;
     }
