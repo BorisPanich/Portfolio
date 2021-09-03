@@ -1,12 +1,8 @@
 import React from 'react';
-import style from './Title.module.css';
+import s from './Title.module.css';
 
-function Title(props) {
-    return (
-        <div className={style.title}>
-            <h2>{props.text}</h2>
-        </div>
-    )
-}
+export const Title = React.memo(({title, className}) => {
+    const finalStyle = `${className} ${s.defaulStyle}`
 
-export default Title;
+    return <div className={finalStyle}>{title}</div>
+})

@@ -2,12 +2,13 @@ import React from 'react';
 import s from './Contacts.module.css';
 import sContainer from './../../src/Common/styles/Container.module.css'
 import {Button} from "../Common/components/button/Button";
+import {Title} from "../Common/components/title/Title";
 
 const Contacts = React.memo(() => {
     return (
         <div className={s.contactBlock}>
             <div className={`${sContainer.container} ${s.contactContainer}`}>
-                <h2 className={s.title}>Contact</h2>
+                <Title title={'Contact'}/>
                 <form className={s.contactForm}>
                     <label htmlFor="fname">First name:</label><br/>
                     <input type="text" id="fname" name="fname"/><br/>

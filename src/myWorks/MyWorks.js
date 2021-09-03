@@ -4,6 +4,7 @@ import sContainer from './../../src/Common/styles/Container.module.css'
 import todoList from "../assets/images/todoList.png";
 import Sfinks from "../assets/images/Sfinks.jpg";
 import MyWork from "./myWork/MyWork";
+import {Title} from "../Common/components/title/Title";
 
 const MyWorks = React.memo(() => {
     const todoImage = {
@@ -16,7 +17,7 @@ const MyWorks = React.memo(() => {
     return (
         <div className={s.worksBlock}>
             <div className={`${sContainer.container} ${s.worksContainer}`}>
-                <h2 className={s.title}>My works</h2>
+                <Title title={'My works'}/>
                 <div className={s.works}>
                     <MyWork projectName={"Social Network"}
                             discription={"small social network"}

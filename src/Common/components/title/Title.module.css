@@ -1,48 +1,56 @@
-.projectsBlock {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.defaulStyle {
     text-align: center;
-    background-color: #f8d0d4;
+    background-color: #e72020;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0;
 }
 
-.projectsContainer {
-    flex-direction: column;
-    justify-content: flex-start;
-}
+/*.projectsBlock {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    text-align: center;*/
+/*    background-color: #f8d0d4;*/
+/*}*/
 
-.title {
-    margin: 0 0 30px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    color: #333;
-    text-transform: capitalize;
-    font-size: 36px;
-    line-height: 1.2;
-    letter-spacing: 5px;
-    position: relative;
-}
+/*.projectsContainer {*/
+/*    flex-direction: column;*/
+/*    justify-content: flex-start;*/
+/*}*/
 
-.title h2 {
-    margin: 0;
-}
-.title::before {
-    content: "";
-    position: absolute;
-    background: #1629d0;
-    width: 55px;
-    height: 1px;
-    bottom: -30px;
-    left: 50%;
-    transform: translate(-50%, 50%);
-}
+/*.title {*/
+/*    margin: 0 0 30px;*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*    font-weight: 300;*/
+/*    color: #333;*/
+/*    text-transform: capitalize;*/
+/*    font-size: 36px;*/
+/*    line-height: 1.2;*/
+/*    letter-spacing: 5px;*/
+/*    position: relative;*/
+/*}*/
 
-.projects {
-    border: 1px solid;
-    width: 100%;
-    background-color: #fdf4d6;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
+/*.title h2 {*/
+/*    margin: 0;*/
+/*}*/
+/*.title::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    background: #1629d0;*/
+/*    width: 55px;*/
+/*    height: 1px;*/
+/*    bottom: -30px;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, 50%);*/
+/*}*/
+
+/*.projects {*/
+/*    border: 1px solid;*/
+/*    width: 100%;*/
+/*    background-color: #fdf4d6;*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    flex-wrap: wrap;*/
+/*}*/

@@ -1,8 +1,7 @@
 .mainBlock {
-    height: auto;
     padding: 50px 0;
     background: rgb(114, 117, 117);
-    min-height: 50vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,12 +10,16 @@
 }
 
 .greeting {
-    width: 300px;
+    min-width: 200px;
+    width: 100%;
+    max-width: 300px;
     background: #c3c3c3;
 }
 
 .photo {
-    width: 300px;
+    min-width: 200px;
+    width: 100%;
+    max-width: 300px;
     height: 300px;
     background-color: #e72020;
     background-size: cover;
@@ -25,7 +28,5 @@
 @media screen and (max-width: 760px) {
     .greeting {
         text-align: center;
-    }
-    .photo {
     }
 }

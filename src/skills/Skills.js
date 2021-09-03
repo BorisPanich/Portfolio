@@ -2,12 +2,13 @@ import React from 'react';
 import s from './Skills.module.css';
 import sContainer from './../../src/Common/styles/Container.module.css'
 import Skill from "./skill/Skill";
+import {Title} from "../Common/components/title/Title";
 
 const Skills = React.memo(() => {
     return (
         <div className={s.skillsBlock}>
             <div className={`${sContainer.container} ${s.skillsContainer}`}>
-                <h2 className={s.title}>Skills</h2>
+                <Title title={'Skills'} />
                 <div className={s.skills}>
                     <Skill title={"JS"}
                            discription={"Text of lesson JS"}
