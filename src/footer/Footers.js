@@ -7,7 +7,9 @@ const Footers = React.memo(() => {
     return (
         <div className={s.footerBlock}>
             <div className={`${sContainer.container} ${s.footerContainer}`}>
-                <Title title={'Boris Panich'} />
+                <Title title={'Boris Panich'}
+                       titleDiscription={'future description'}
+                />
                 <div className={s.socialLinksBlock}>
                     <div className={s.socialLink}>1</div>
                     <div className={s.socialLink}>2</div>

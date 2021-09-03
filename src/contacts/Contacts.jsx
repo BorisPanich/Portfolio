@@ -8,16 +8,19 @@ const Contacts = React.memo(() => {
     return (
         <div className={s.contactBlock}>
             <div className={`${sContainer.container} ${s.contactContainer}`}>
-                <Title title={'Contact'}/>
+                <Title title={'Contact'}
+                       titleDiscription={'future description'}
+                />
                 <form className={s.contactForm}>
-                    <label htmlFor="fname">First name:</label><br/>
-                    <input type="text" id="fname" name="fname"/><br/>
-                    <label htmlFor="lname">Last name:</label><br/>
-                    <input type="text" id="lname" name="lname"/><br/>
-                    <label htmlFor="larea">Your message:</label><br/>
-                    <textarea type="text" id="larea" name="larea"/>
+                    <input type="text" id="fname" name="fname" placeholder={'Your First Name'}/>
+                    <input type="text" id="lname" name="lname" placeholder={'Your Last Name'}/>
+                    <textarea type="text" id="larea" name="larea" placeholder={'Your Message'}/>
                 </form>
-                <Button name={'Send'}/>
+                <Button name={'Send message'}
+                        className={s.contactBtn}
+                        newStyle
+                        button
+                />
             </div>
         </div>
     )

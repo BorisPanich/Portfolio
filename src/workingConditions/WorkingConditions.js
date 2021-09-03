@@ -8,10 +8,12 @@ function WorkingConditions() {
     return (
         <div className={s.workingBlock}>
             <div className={`${sContainer.container} ${s.workingContainer}`}>
-                <Title title={'Сonsidering work options'} />
-                <Button name={'Hire me'} />
+                <Title title={'Сonsidering work options'}
+                       titleDiscription={'future description'}
+                />
+                <Button name={'Hire me'}/>
             </div>
-    </div>
+        </div>
     )
 }
 

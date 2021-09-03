@@ -1,6 +1,9 @@
 .app {
     margin: 0 auto;
     width: 100%;
-    background: #fff;
+    /*background: #fff;*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 

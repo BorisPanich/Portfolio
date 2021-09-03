@@ -17,7 +17,9 @@ const MyWorks = React.memo(() => {
     return (
         <div className={s.worksBlock}>
             <div className={`${sContainer.container} ${s.worksContainer}`}>
-                <Title title={'My works'}/>
+                <Title title={'My works'}
+                       titleDiscription={'future description'}
+                />
                 <div className={s.works}>
                     <MyWork projectName={"Social Network"}
                             discription={"small social network"}

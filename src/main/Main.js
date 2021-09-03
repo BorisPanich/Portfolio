@@ -13,9 +13,8 @@ const Main = React.memo(() => {
             <div className={sContainer.container}>
                 <div style={myFoto} className={s.photo}></div>
                 <div className={s.greeting}>
-                    <span>Hi There</span>
-                    <h1>I'm Boris</h1>
-                    <p>Front-End Developer!</p>
+                    <span className={s.profession}>Front-end developer</span>
+                    <h1>Hello, I'm <span className={s.name}>Boris</span> Welcome to my World.</h1>
                 </div>
             </div>
         </div>

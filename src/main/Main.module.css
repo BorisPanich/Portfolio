@@ -1,5 +1,5 @@
 .mainBlock {
-    padding: 50px 0;
+    /*padding: 50px 0;*/
     background: rgb(114, 117, 117);
     min-height: 100vh;
     display: flex;
@@ -12,7 +12,7 @@
 .greeting {
     min-width: 200px;
     width: 100%;
-    max-width: 300px;
+    max-width: 70%;
     background: #c3c3c3;
 }
 
@@ -23,6 +23,28 @@
     height: 300px;
     background-color: #e72020;
     background-size: cover;
+}
+
+.profession {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: block;
+    margin-bottom: 20px;
+    color: rgba(198,201,216,.75);
+}
+
+.greeting h1 {
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    color: #fff;
+    margin: 0;
+}
+
+.greeting .name {
+    color: #f9004d;
+    display: inline-block;
 }
 
 @media screen and (max-width: 760px) {

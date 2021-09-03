@@ -1,6 +1,7 @@
 .workingBlock {
     min-height: 50vh;
-    background: rgb(74, 76, 76);
+    padding: 100px 0;
+    background-color: var(--first-bg-color);
     display: flex;
     flex-direction: column;
     justify-content: center;

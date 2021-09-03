@@ -1,6 +1,50 @@
 .nav {
-    border: 1px solid red;
+    display: block;
+    width: auto;
+}
+
+.navbar {
+    display: block;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.mainMenu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
     display: flex;
-    justify-content: space-evenly;
-    width: 300px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.menuItem {
+    position: relative;
+    font-size: 16px;
+    display: list-item;
+    letter-spacing: 0.3px;
+}
+
+.menuItem {margin: 0 20px}
+
+.menuItem:first-of-type {margin-left: 0}
+
+.menuItem:last-of-type {margin-right: 0}
+
+.menuItem a {
+    position: relative;
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+
+.menuItem a:hover {
+    color: #f9004d;
+}
+
+.menuItem a:hover:before {
+    width: 100%;
 }

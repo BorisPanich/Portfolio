@@ -1,12 +1,12 @@
 .skillsBlock {
     min-height: 50vh;
-    background: rgb(74, 76, 76);
+    padding: 100px 0;
+    background-color: var(--first-bg-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 75px 0;
 }
 
 .skillsContainer {
@@ -15,16 +15,10 @@
     justify-content: flex-start;
 }
 
-.title {
-    background-color: #e72020;
-}
-
 .skills {
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /*justify-content: center;*/
     flex-wrap: wrap;
     margin-top: 30px;
 }
@@ -32,10 +26,6 @@
 @media screen and (max-width: 934px) {
     .skills {
         justify-content: space-around;
-    }
-
-    .skills > div:last-child {
-        margin-bottom: 0;
     }
 }
 

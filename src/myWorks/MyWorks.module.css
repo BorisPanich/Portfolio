@@ -4,7 +4,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: rgb(114, 117, 117);
+    padding: 100px 0;
+    background-color: var(--second-bg-color);
 }
 
 .worksContainer {
@@ -13,17 +14,12 @@
 }
 
 .works {
-    border: 1px solid;
     width: 100%;
     background-color: #fdf4d6;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 30px;
-}
-
-.title {
-    background-color: #e72020;
 }
 
 @media screen and (max-width: 1005px) {

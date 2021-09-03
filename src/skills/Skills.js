@@ -8,10 +8,12 @@ const Skills = React.memo(() => {
     return (
         <div className={s.skillsBlock}>
             <div className={`${sContainer.container} ${s.skillsContainer}`}>
-                <Title title={'Skills'} />
+                <Title title={'Skills'}
+                       titleDiscription={'future description'}
+                />
                 <div className={s.skills}>
                     <Skill title={"JS"}
-                           discription={"Text of lesson JS"}
+                           titleDiscription={"Text of lesson JS"}
                     />
                     <Skill title={"TS"}
                            discription={"Text of lesson TS"}
@@ -20,7 +22,7 @@ const Skills = React.memo(() => {
                            discription={"Text of lesson React"}
                     />
                     <Skill title={"Redux"}
-                           iscription={"Text of lesson Redux"}
+                           discription={"Text of lesson Redux"}
                     />
                     <Skill title={"Material UI"}
                            discription={"Text of lesson Material UI"}
