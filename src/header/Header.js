@@ -1,20 +1,38 @@
-import React from 'react';
-import s from './Header.module.css';
+import React, {useState} from 'react';
+import s from './Header.module.scss';
+import Fade from 'react-reveal/Fade';
 import Nav from "../nav/Nav";
-import sContainer from './../../src/Common/styles/Container.module.css';
+import {Button} from "../Common/components/button/Button";
+import {BurgerButton} from "./BurgerButton/BurgerButton";
+import {BurgerNav} from "./Navigation/BurgerNav/BurgerNav";
 
-const Header = React.memo(() => {
+export const Header = () => {
+
+    let [visible, setVisible] = useState(false)
+
+    const finalStyle = visible ? `${s.fullOverlay} ${s.activeFullOverlay}` : s.fullOverlay
+
     return (
-        <div className={s.headerArea}>
-            <div className={sContainer.container}>
+        <section className={s.headerArea}>
+            <Fade clear>
                 <div className={s.headerWrapper}>
                     <div className={s.headerLeft}>
                         <Nav/>
                     </div>
+                    <div className={s.headerRight}>
+                        <div className={finalStyle}></div>
+                        <div className={s.headerBtnWrapper}>
+                            <Button name={`LET'S TALK`} className={s.headerBtn} newStyle={true}/>
+                        </div>
+                        <div className={s.hamburgerMenu}>
+                     <span className={s.menuTrigger}>
+                        <BurgerButton changeState={setVisible} state={visible}/>
+                     </span>
+                            <BurgerNav state={visible} setState={setVisible}/>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
+            </Fade>
+        </section>
     )
-})
-
-export default Header;
+}

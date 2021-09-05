@@ -1,15 +1,17 @@
 import React from 'react';
-import s from './Title.module.css';
+import s from './Title.module.scss'
 
-export const Title = React.memo(({title, titleDescription, className}) => {
-    const finalStyle = `${className} ${s.defaulStyle}`
+export const Title = ({title, titleDescription, className}) => {
+    const finalStyle = `${className} ${s.defaultStyle}`
 
-    return <div className={finalStyle}>
-        <h2>
-            {title}
-        </h2>
-        <div>
-            <p>{titleDescription}</p>
-        </div>
-    </div>
-})
+    return (
+        <article className={finalStyle}>
+            <h1 className={s.article}>
+                {title}
+            </h1>
+            <div>
+                <p>{titleDescription}</p>
+            </div>
+        </article>
+    )
+}

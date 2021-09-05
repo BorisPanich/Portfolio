@@ -1,7 +1,8 @@
 import React from 'react';
-import s from './Main.module.css';
-import My_foto from '../assets/images/My_foto.jpg'
-import sContainer from './../../src/Common/styles/Container.module.css'
+import s from './Main.module.scss';
+import My_foto from '../assets/images/My_foto.jpg';
+import Fade from 'react-reveal/Fade';
+import ReactTypingEffect from 'react-typing-effect';
 
 const Main = React.memo(() => {
     const myFoto = {
@@ -9,13 +10,22 @@ const Main = React.memo(() => {
     }
 
     return (
-        <div className={s.mainBlock}>
-            <div className={sContainer.container}>
+        <div className={s.mainBlock} id='main'>
+            <div className={s.container}>
                 <div style={myFoto} className={s.photo}></div>
-                <div className={s.greeting}>
-                    <span className={s.profession}>Front-end developer</span>
-                    <h1>Hello, I'm <span className={s.name}>Boris</span> Welcome to my World.</h1>
-                </div>
+                <Fade clear>
+                    <div className={s.greeting}>
+                <span className={s.profession}>
+                   <ReactTypingEffect text={['<Front-end developer/']}
+                                      speed={100}
+                                      eraseSpeed={10}
+                                      cursor={'>'}
+                   />
+                </span>
+                        <h1>Hello, I'm <span className={s.name}>Boris</span><br/>
+                            Welcome to my World.</h1>
+                    </div>
+                </Fade>
             </div>
         </div>
     )
