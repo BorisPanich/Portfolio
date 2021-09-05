@@ -4,7 +4,7 @@ import {Skills} from "./skills/Skills";
 import WorkingConditions from "./workingConditions/WorkingConditions";
 import Contacts from "./contacts/Contacts";
 import Footer from "./footer/Footers";
-import MyWorks from "./myWorks/MyWorks";
+import {MyWorks} from "./myWorks/MyWorks";
 import {ScrollToUp} from './Common/components/ArrowUp/ScrollToUp';
 import {Header} from "./header/Header";
 import Main from "./main/Main";

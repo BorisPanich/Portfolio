@@ -1,0 +1,17 @@
+@import '../Common/styles/mixins';
+
+.worksBlock {
+  height: auto;
+  padding: 60px 0;
+  background-color: var(--second-bg-color);
+
+  .container {
+    @include container();
+    @include display(flex, flex-start, $f-der: column);
+
+    .works {
+      @include display(flex, flex-start, $wrap: wrap);
+      width: 100%;
+    }
+  }
+}
