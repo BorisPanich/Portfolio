@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './App.module.css';
-import Skills from "./skills/Skills";
+import {Skills} from "./skills/Skills";
 import WorkingConditions from "./workingConditions/WorkingConditions";
 import Contacts from "./contacts/Contacts";
 import Footer from "./footer/Footers";
@@ -13,7 +13,7 @@ function App() {
     return (
         <div className={s.app}>
             <ScrollToUp/>
-            <div className={s.efw}>
+            <div className={s.fon}>
                 <Header/>
                 <Main/>
             </div>
