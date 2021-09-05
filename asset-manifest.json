@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.40a3b3bd.chunk.css",
-    "main.js": "/Portfolio/static/js/main.d4e83241.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.d4e83241.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.74c2617a.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.74c2617a.js.map",
-    "static/js/2.c38b3807.chunk.js": "/Portfolio/static/js/2.c38b3807.chunk.js",
-    "static/js/2.c38b3807.chunk.js.map": "/Portfolio/static/js/2.c38b3807.chunk.js.map",
-    "static/js/3.4a33cc05.chunk.js": "/Portfolio/static/js/3.4a33cc05.chunk.js",
-    "static/js/3.4a33cc05.chunk.js.map": "/Portfolio/static/js/3.4a33cc05.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.256b27ff.chunk.css",
+    "main.js": "/Portfolio/static/js/main.89056968.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.89056968.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.9c578529.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.9c578529.js.map",
+    "static/js/2.2c8a8839.chunk.js": "/Portfolio/static/js/2.2c8a8839.chunk.js",
+    "static/js/2.2c8a8839.chunk.js.map": "/Portfolio/static/js/2.2c8a8839.chunk.js.map",
+    "static/js/3.22038b5b.chunk.js": "/Portfolio/static/js/3.22038b5b.chunk.js",
+    "static/js/3.22038b5b.chunk.js.map": "/Portfolio/static/js/3.22038b5b.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.40a3b3bd.chunk.css.map": "/Portfolio/static/css/main.40a3b3bd.chunk.css.map",
-    "static/js/2.c38b3807.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.c38b3807.chunk.js.LICENSE.txt",
+    "static/css/main.256b27ff.chunk.css.map": "/Portfolio/static/css/main.256b27ff.chunk.css.map",
+    "static/js/2.2c8a8839.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.2c8a8839.chunk.js.LICENSE.txt",
     "static/media/My_foto.1fca6d3c.jpg": "/Portfolio/static/media/My_foto.1fca6d3c.jpg",
-    "static/media/Sfinks.42e4a09b.jpg": "/Portfolio/static/media/Sfinks.42e4a09b.jpg"
+    "static/media/Sfinks.42e4a09b.jpg": "/Portfolio/static/media/Sfinks.42e4a09b.jpg",
+    "static/media/App.module.css": "/Portfolio/static/media/efw.197212d0.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.74c2617a.js",
-    "static/js/2.c38b3807.chunk.js",
-    "static/css/main.40a3b3bd.chunk.css",
-    "static/js/main.d4e83241.chunk.js"
+    "static/js/runtime-main.9c578529.js",
+    "static/js/2.2c8a8839.chunk.js",
+    "static/css/main.256b27ff.chunk.css",
+    "static/js/main.89056968.chunk.js"
   ]
 }
