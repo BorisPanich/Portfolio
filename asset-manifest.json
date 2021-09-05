@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8f76b056.chunk.css",
-    "main.js": "/Portfolio/static/js/main.93505953.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.93505953.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.c3babff9.chunk.css",
+    "main.js": "/Portfolio/static/js/main.23acaeaf.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.23acaeaf.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.9c578529.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.9c578529.js.map",
-    "static/js/2.b49ae1d6.chunk.js": "/Portfolio/static/js/2.b49ae1d6.chunk.js",
-    "static/js/2.b49ae1d6.chunk.js.map": "/Portfolio/static/js/2.b49ae1d6.chunk.js.map",
+    "static/js/2.a231d6f5.chunk.js": "/Portfolio/static/js/2.a231d6f5.chunk.js",
+    "static/js/2.a231d6f5.chunk.js.map": "/Portfolio/static/js/2.a231d6f5.chunk.js.map",
     "static/js/3.22038b5b.chunk.js": "/Portfolio/static/js/3.22038b5b.chunk.js",
     "static/js/3.22038b5b.chunk.js.map": "/Portfolio/static/js/3.22038b5b.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.8f76b056.chunk.css.map": "/Portfolio/static/css/main.8f76b056.chunk.css.map",
-    "static/js/2.b49ae1d6.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.b49ae1d6.chunk.js.LICENSE.txt",
+    "static/css/main.c3babff9.chunk.css.map": "/Portfolio/static/css/main.c3babff9.chunk.css.map",
+    "static/js/2.a231d6f5.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.a231d6f5.chunk.js.LICENSE.txt",
     "static/media/My_foto.1fca6d3c.jpg": "/Portfolio/static/media/My_foto.1fca6d3c.jpg",
-    "static/media/Sfinks.42e4a09b.jpg": "/Portfolio/static/media/Sfinks.42e4a09b.jpg",
+    "static/media/giris.4a8d99c4.jpeg": "/Portfolio/static/media/giris.4a8d99c4.jpeg",
     "static/media/graphql.7bbb3a4b.svg": "/Portfolio/static/media/graphql.7bbb3a4b.svg",
     "static/media/icons8-javascript.64d9e0e7.svg": "/Portfolio/static/media/icons8-javascript.64d9e0e7.svg",
     "static/media/icons8-material-ui.62dcadca.svg": "/Portfolio/static/media/icons8-material-ui.62dcadca.svg",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9c578529.js",
-    "static/js/2.b49ae1d6.chunk.js",
-    "static/css/main.8f76b056.chunk.css",
-    "static/js/main.93505953.chunk.js"
+    "static/js/2.a231d6f5.chunk.js",
+    "static/css/main.c3babff9.chunk.css",
+    "static/js/main.23acaeaf.chunk.js"
   ]
 }
