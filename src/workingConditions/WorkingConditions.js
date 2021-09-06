@@ -11,7 +11,7 @@ function WorkingConditions() {
                 <Title title={'Сonsidering work options'}
                        titleDiscription={'future description'}
                 />
-                <Button name={'Hire me'}/>
+                <Button name={'Hire me'} />
             </div>
         </div>
     )
