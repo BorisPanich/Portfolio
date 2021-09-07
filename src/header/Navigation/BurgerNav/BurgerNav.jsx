@@ -1,6 +1,6 @@
-import React from 'react'
-import s from './BurgerNav.module.scss'
-import {Link} from 'react-scroll'
+import React from 'react';
+import s from './BurgerNav.module.scss';
+import {Link} from 'react-scroll';
 
 export const BurgerNav = (props) => {
 
@@ -35,7 +35,7 @@ export const BurgerNav = (props) => {
                       to="skills"
                       spy={true}
                       smooth={true}
-                      offset={-70}
+                      offset={0}
                       duration={500}
                 >Skills</Link>
             </li>
@@ -52,7 +52,7 @@ export const BurgerNav = (props) => {
             <li className={s.menuItem}>
                 <Link activeClass={s.active}
                       onClick={onClickHandler}
-                      to="contact"
+                      to="contacts"
                       spy={true}
                       smooth={true}
                       offset={-70}

@@ -38,6 +38,7 @@
       }
 
       &.active:before {
+        //@include position(absolute, $left: 0);
         @include navStyle(scaleX(1), 100%);
       }
     }

@@ -13,7 +13,7 @@ export const Nav = () => {
                               to="main"
                               spy={true}
                               smooth={true}
-                              offset={-71}
+                              offset={0}
                               duration={500}
                         >Main</Link>
                     </li>
@@ -22,7 +22,7 @@ export const Nav = () => {
                               to="skills"
                               spy={true}
                               smooth={true}
-                              offset={-71}
+                              offset={0}
                               duration={500}
                         >Skills</Link>
                     </li>
@@ -31,16 +31,16 @@ export const Nav = () => {
                               to="works"
                               spy={true}
                               smooth={true}
-                              offset={-71}
+                              offset={1}
                               duration={500}
                         >Projects</Link>
                     </li>
                     <li className={s.menuItem}>
                         <Link activeClass={s.active}
-                              to="contact"
+                              to="contacts"
                               spy={true}
                               smooth={true}
-                              offset={-71}
+                              offset={1}
                               duration={500}
                         >Contacts</Link>
                     </li>

@@ -1,16 +1,15 @@
 import React from 'react';
 import s from './Skills.module.scss';
-// import sContainer from '../Common/styles/Container.module.scss';
 import Fade from 'react-reveal/Fade';
-import react from '../assets/images/skills/icons8-react.svg'
-import typescript from '../assets/images/skills/icons8-typescript.svg'
-import js from '../assets/images/skills/icons8-javascript.svg'
-import redux from '../assets/images/skills/icons8-redux.svg'
-import material from '../assets/images/skills/icons8-material-ui.svg'
-import story from '../assets/images/skills/story.svg'
-import node from '../assets/images/skills/icons8-nodejs.svg'
-import ql from '../assets/images/skills/graphql.svg'
-import db from '../assets/images/skills/mongodb.svg'
+import react from '../assets/images/skills/icons8-react.svg';
+import typescript from '../assets/images/skills/icons8-typescript.svg';
+import js from '../assets/images/skills/icons8-javascript.svg';
+import redux from '../assets/images/skills/icons8-redux.svg';
+import material from '../assets/images/skills/icons8-material-ui.svg';
+import story from '../assets/images/skills/story.svg';
+import node from '../assets/images/skills/icons8-nodejs.svg';
+import ql from '../assets/images/skills/graphql.svg';
+import db from '../assets/images/skills/mongodb.svg';
 import {Title} from "../Common/components/title/Title";
 import Skill from "./skill/Skill";
 
@@ -18,8 +17,8 @@ import Skill from "./skill/Skill";
 export const Skills = () => {
 
     return (
-        <div className={s.skillsBlock}>
-            <div className={s.container} id='skills'>
+        <div className={s.skillsBlock} id="skills">
+            <div className={s.container}>
                 <Title title={'Skills'}
                        titleDescription={'I use the following technologies in my work.'}
                 />
@@ -60,16 +59,16 @@ export const Skills = () => {
                             title={'NodeJS'}
                             discription={'Back-end JavaScript runtime environment '}
                         />
-                        <Skill
-                            icon={ql}
-                            title={'GraphQl'}
-                            discription={'Query language for your API, and a server-side runtime for executing queries by using a type system you define for your data.'}
-                        />
-                        <Skill
-                            icon={db}
-                            title={'MongoDB'}
-                            discription={'Document database, which means it stores data in JSON-like documents'}
-                        />
+                        {/*<Skill*/}
+                        {/*    icon={ql}*/}
+                        {/*    title={'GraphQl'}*/}
+                        {/*    discription={'Query language for your API, and a server-side runtime for executing queries by using a type system you define for your data.'}*/}
+                        {/*/>*/}
+                        {/*<Skill*/}
+                        {/*    icon={db}*/}
+                        {/*    title={'MongoDB'}*/}
+                        {/*    discription={'Document database, which means it stores data in JSON-like documents'}*/}
+                        {/*/>*/}
                     </div>
                 </Fade>
             </div>

@@ -14,16 +14,16 @@ export const Header = () => {
 
     return (
         <section className={s.headerArea}>
-            <Fade clear>
+            <Fade>
                 <div className={s.headerWrapper}>
                     <div className={s.headerLeft}>
                         <Nav/>
                     </div>
                     <div className={s.headerRight}>
                         <div className={finalStyle}></div>
-                        <div className={s.headerBtnWrapper}>
-                            <Button name={`LET'S TALK`} className={s.headerBtn} newStyle={true}/>
-                        </div>
+                        {/*<div className={s.headerBtnWrapper}>*/}
+                        {/*    <Button name={`LET'S TALK`} className={s.headerBtn} newStyle={true}/>*/}
+                        {/*</div>*/}
                         <div className={s.hamburgerMenu}>
                      <span className={s.menuTrigger}>
                         <BurgerButton changeState={setVisible} state={visible}/>

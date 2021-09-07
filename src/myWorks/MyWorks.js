@@ -11,8 +11,8 @@ export const MyWorks = React.memo(() => {
     }
 
     return (
-        <div className={s.worksBlock}>
-            <div className={s.container} id='works'>
+        <div className={s.worksBlock} id="works">
+            <div className={s.container}>
                 <Fade right>
                     <Title title={'My works'}
                            titleDescription={'Check out my latest web software development portfolio projects.'}

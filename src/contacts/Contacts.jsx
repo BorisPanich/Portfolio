@@ -8,7 +8,7 @@ import Fade from 'react-reveal/Fade';
 
 const Contacts = React.memo(() => {
     return (
-        <div className={s.contactBlock}>
+        <div className={s.contactBlock} id="contacts">
             <div className={s.container}>
                 <Fade right>
                     <Title title={'Contact'}
