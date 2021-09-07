@@ -3,6 +3,7 @@ import s from './Main.module.scss';
 import My_foto from '../assets/images/My_foto.jpg';
 import Fade from 'react-reveal/Fade';
 import ReactTypingEffect from 'react-typing-effect';
+import Tilt from 'react-tilt';
 
 const Main = React.memo(() => {
     const myFoto = {
@@ -12,7 +13,9 @@ const Main = React.memo(() => {
     return (
         <div className={s.mainBlock} id='main'>
             <div className={s.container}>
-                <div style={myFoto} className={s.photo}></div>
+                <Tilt className="Tilt">
+                    <div style={myFoto} className={s.photo}></div>
+                </Tilt>
                 <Fade clear>
                     <div className={s.greeting}>
                 <span className={s.profession}>
