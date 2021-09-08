@@ -28,7 +28,7 @@ export const MyWorks = React.memo(() => {
                                 }
                         />
                         <MyWork style={oneWork}
-                                link={'https://BorisPanich.github.io/TodoList'}
+                                link={'https://github.com/BorisPanich/TodoList'}    // problem with gh-pages
                                 repLink={'https://github.com/BorisPanich/TodoList'}
                                 projectName={'Todo List'}
                                 description={
@@ -36,7 +36,7 @@ export const MyWorks = React.memo(() => {
                                 }
                         />
                         <MyWork style={oneWork}
-                                link={''}
+                                link={'https://github.com/BorisPanich/react_KKP'}
                                 repLink={'https://github.com/BorisPanich/react_KKP'}
                                 projectName={'Storybook miniProject'}
                                 description={

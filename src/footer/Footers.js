@@ -1,28 +1,46 @@
 import React from 'react';
-import s from './Footers.module.css';
-import sContainer from '../Common/styles/Container.module.scss'
-import {Title} from "../Common/components/title/Title";
-import Zoom from 'react-reveal/Zoom';
+import s from './Footers.module.scss';
+import Fade from 'react-reveal/Fade';
+import socialIn from './../assets/images/footer/icons8-linkedin-2.svg';
+import socialVk from './../assets/images/footer/icons8-vkontakte.svg';
+import socialInst from './../assets/images/footer/icons8-instagram.svg';
 
-const Footers = React.memo(() => {
+const Footers = () => {
+
     return (
-        <div className={s.footerBlock}>
-            <div className={`${sContainer.container} ${s.footerContainer}`}>
-                <Zoom small>
-                    <Title title={'Boris Panich'}
-                           titleDiscription={'future description'}
-                    />
-                    <div className={s.socialLinksBlock}>
-                        <div className={s.socialLink}>1</div>
-                        <div className={s.socialLink}>2</div>
-                        <div className={s.socialLink}>3</div>
-                        <div className={s.socialLink}>4</div>
+        <footer className={s.footerWrapper}>
+            <div className={s.container}>
+                <div className={s.wrapper}>
+                    <div className={s.innerText}>
+                        <ul className={s.socialShare}>
+                            <Fade bottom>
+                                <li>
+                                    <a href="https://vk.com/id19688828" target="_blank" rel="noopener noreferrer">
+                                        <img src={socialVk} alt=""/>
+                                    </a>
+                                </li>
+                            </Fade>
+                            <Fade bottom>
+                                <li>
+                                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                                        <img src={socialInst} alt=""/>
+                                    </a>
+                                </li>
+                            </Fade>
+                            <Fade bottom>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/boris-panich-10157b1a8/" target="_blank" rel="noopener noreferrer">
+                                        <img src={socialIn} alt=""/>
+                                    </a>
+                                </li>
+                            </Fade>
+                        </ul>
                     </div>
-                    <h4>@2020 All rights reserved Boris Panich</h4>
-                </Zoom>
+                    <p>© 2021. All rights reserved by Boris Panich</p>
+                </div>
             </div>
-        </div>
+        </footer>
     )
-})
+}
 
 export default Footers;

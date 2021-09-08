@@ -19,7 +19,7 @@ const Main = React.memo(() => {
                 <Fade clear>
                     <div className={s.greeting}>
                 <span className={s.profession}>
-                   <ReactTypingEffect text={['<Front-end developer/']}
+                   <ReactTypingEffect text={['<Front-end developer/    (The Portfolio project not finished yet)']}
                                       speed={100}
                                       eraseSpeed={10}
                                       cursor={'>'}
