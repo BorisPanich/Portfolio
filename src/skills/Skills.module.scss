@@ -10,7 +10,7 @@
     @include display(flex, $f-der: column);
 
     .skills {
-      @include display(flex, flex-start, $wrap: wrap);
+      @include display(flex, center, $wrap: wrap);
       width: 100%;
     }
   }

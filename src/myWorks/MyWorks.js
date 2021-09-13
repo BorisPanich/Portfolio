@@ -11,7 +11,7 @@ export const MyWorks = React.memo(() => {
     }
 
     return (
-        <div className={s.worksBlock} id="works">
+        <div className={s.worksBlock} id='works'>
             <div className={s.container}>
                 <Fade right>
                     <Title title={'My works'}
@@ -32,7 +32,8 @@ export const MyWorks = React.memo(() => {
                                 repLink={'https://github.com/BorisPanich/TodoList'}
                                 projectName={'Todo List'}
                                 description={
-                                    'Redux-toolkit contains the best practice from all React developers. This project shows redux-toolkit and his strict limits.'
+                                    'This project uses modern libraries, their logic and practical application.\n' +
+                                    'And Redux-toolkit contains the best practices of all React developers. This project demonstrates redux-toolkit and its strict limitations.'
                                 }
                         />
                         <MyWork style={oneWork}
@@ -40,7 +41,7 @@ export const MyWorks = React.memo(() => {
                                 repLink={'https://github.com/BorisPanich/react_KKP'}
                                 projectName={'Storybook miniProject'}
                                 description={
-                                    'Project using storybook'
+                                    'Project using storybook. In this project, components are viewed, and various states of these components are examined and tested.'
                                 }
                         />
                     </div>
